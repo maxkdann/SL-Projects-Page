@@ -7,6 +7,7 @@ import HeroBanner from '../components/HeroBanner';
 import Welcome from '../components/Welcome';
 import Card from '../components/Card';
 import Form from '../components/Form';
+import Footer from '../components/Footer';
 
 const ProjectsScreen = () => {
     return <ScrollView>
@@ -18,6 +19,7 @@ const ProjectsScreen = () => {
         <SearchBar />
         <Card />
         <Form />
+        <Footer />
     </ScrollView>
 };
 

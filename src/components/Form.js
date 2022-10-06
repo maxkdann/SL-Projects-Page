@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { View, Text, StyleSheet, TextInput } from 'react-native';
-import { CheckBox } from 'react-native-elements';
+import { CheckBox} from 'react-native-elements';
 import FormButton from './FormButton';
 
 const Form = () => {
@@ -74,9 +74,9 @@ const Form = () => {
 };
 
 const styles = StyleSheet.create({
-    submitButtonStyle:{
-        alignItems:'flex-end',
-        marginRight:15
+    submitButtonStyle: {
+        alignItems: 'flex-end',
+        marginRight: 15
     },
     radioButtonsStyle: {
         flexDirection: 'row',

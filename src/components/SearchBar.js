@@ -6,10 +6,14 @@ const SearchBar = () => {
     return (
         <View style={styles.backgroundStyle}>
             <TextInput
-                placeHolder="Enter Keyword"
+                placeholder="Enter keyword"
                 style={styles.inputStyle}
             />
-            <Feather name='search' style={styles.iconStyle} />
+            <View style={styles.iconViewStyle}>
+                <View style={styles.imageBox}>
+                    <Feather name='search' style={styles.iconStyle} />
+                </View>
+            </View>
         </View>
     );
 };
@@ -17,8 +21,9 @@ const SearchBar = () => {
 const styles = StyleSheet.create({
     backgroundStyle: {
         backgroundColor: "white",
-        height: 50,
-        //borderRadius: 5,
+        height: 70,
+        borderColor:'black',
+        borderWidth:1,
         marginHorizontal: 15,
         flexDirection: 'row',
         marginTop: 10,
@@ -27,11 +32,28 @@ const styles = StyleSheet.create({
     inputStyle: {
         flex: 1,
         fontSize: 18,
+        marginLeft:10
     },
     iconStyle: {
-        fontSize: 35,
+        fontSize: 25,
         alignSelf: 'center',
-        marginHorizontal: 15
+        left:5
+    },
+    iconViewStyle:{
+        borderColor:'black',
+        //borderWidth:1,
+        borderLeftWidth:1,
+        //alignItems:'center',
+    },
+    imageBox:{
+        backgroundColor:'gold',
+        flexDirection:"row",
+        marginHorizontal:20,
+        marginTop:17,
+        borderRadius:6,
+        width:36,
+        height:36,
+        alignItems:"center"
     }
 });
 
