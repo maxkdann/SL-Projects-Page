@@ -10,7 +10,7 @@ import Form from '../components/Form';
 import Footer from '../components/Footer';
 
 const ProjectsScreen = () => {
-    return <ScrollView>
+    return <ScrollView backgroundColor={'#F4F4F5'}>
         <View style={styles.divider}></View>
         <Header />
         <BreadCrumb />
@@ -25,7 +25,7 @@ const ProjectsScreen = () => {
 
 const styles = StyleSheet.create({
     divider: {
-        backgroundColor: "gold",
+        backgroundColor: "#FFCB05",
         height: 10,
     }
 });

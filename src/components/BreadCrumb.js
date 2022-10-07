@@ -9,7 +9,7 @@ const BreadCrumb = () => {
 
 const styles = StyleSheet.create({
     backgroundStyle:{
-        backgroundColor:"teal",
+        backgroundColor:"#4A7283",
         height:30,
         flexDirection:"row"
     },

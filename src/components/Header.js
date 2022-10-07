@@ -2,7 +2,7 @@ import React from 'react';
 import {View, StyleSheet,Text, Image} from 'react-native';
 
 const Header = ({imageSource}) => {
-    return (<View>
+    return (<View backgroundColor={'#FFFFFF'}>
         <Image source = {require("../../assets/logo.png")} style={styles.header}/>
     </View>);
 };

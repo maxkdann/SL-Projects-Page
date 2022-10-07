@@ -11,7 +11,7 @@ const HeroBanner = () => {
 
 const styles = StyleSheet.create({
     backgroundStyle: {
-        backgroundColor: "blue",
+        backgroundColor: "#004C6C",
         height: 320,
     },
     imageStyle: {

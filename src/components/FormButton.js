@@ -17,7 +17,7 @@ const styles = StyleSheet.create({
         fontWeight: 'bold'
     },
     buttonViewStyle: {
-        backgroundColor: 'blue',
+        backgroundColor: '#004C6C',
         borderRadius: 6,
         width: 175,
         height: 70,

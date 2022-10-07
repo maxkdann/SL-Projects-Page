@@ -46,7 +46,7 @@ const styles = StyleSheet.create({
         //alignItems:'center',
     },
     imageBox:{
-        backgroundColor:'gold',
+        backgroundColor:'#FFCB05',
         flexDirection:"row",
         marginHorizontal:20,
         marginTop:17,
